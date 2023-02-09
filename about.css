@@ -18,7 +18,6 @@ body {
   background-image: url("./images/bg-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 40px;
   background-color: rgb(255, 255, 255);
   padding-bottom: 100px;
 }
@@ -283,6 +282,7 @@ footer {
   .socials{
     padding-left: 750px;
     padding-bottom: 30px;
+    display: none;
   }
 
   .third_part {
@@ -378,10 +378,6 @@ footer {
     padding-bottom: 40px;
   }
 
-  .ending {
-    color: #fff;
-  }
-
   .end_credit {
     background-color: #272a31;
   }
@@ -397,9 +393,5 @@ footer {
 
    p .parapraph {
     color: #fff;
-  }
-
-  .socials {
-    display: none;
   }
 }
