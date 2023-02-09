@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Lato', sans-serif;    
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.first_part{
+  padding-top: 30px;
+  background-image: url("./images/bg-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 40px;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 100px;
+}
+
+.navigation_option {
+  display: none;
+  list-style: none;
+  column-gap: 20px;
+}
+
+h1 {
+  font-weight: 800;
+  padding-left: 20px;
+  color: #ec5242;
+}
+
+p {
+  padding-left: 20px;
+  color: #272a31;
+}
+
+.hello {
+  color: #ec5242;
+}
+
+section {
+  background-color: #fff;
+}
+
+.information {
+  background: #fff;
+  font-size: 14px;
+  border-style: solid;
+  border-color: bisque;
+  margin-left: 15px;
+  padding-right: 14px;
+  margin-top: 20px;
+  margin-right: 14px;
+}
+
+.contact {
+  font-size: 15px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.bold {
+  font-weight: 700;
+  padding-left: 100px;
+}
+
+.mid {
+  padding-left: 100px;
+}
+
+.ending {
+  background-color: rgb(20, 20, 20);
+  color:#fff;
+  padding-bottom: 40px;
+  font-size: 10px;
+}
+
+.ending1 {
+  display: none;
+}
+
+.images_class {
+  margin-left: 40px;
+  margin-right: 80px;
+  padding-top: 50px;
+}
+
+.second_part {
+  padding-top: 50px;
+}
+
+.third_part{
+  padding-top: 50px;
+}
+
+h2 {
+  margin-left: 90px;
+}
+
+footer {
+  background-color: #fff;
+}
+
+.adjust {
+  margin-top: 15px;
+  padding-bottom: 40px;
+}
+
+.container {
+  position: relative;
+  width: 79.5%;
+  padding-left: 50px;
+  padding-bottom: 14px;
+}
+
+.southafricasummit{
+  display: none;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.partner {
+  margin-left: 110px;
+  padding-top: 40px;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+.socials {
+  margin-top: 20px;
+  padding-left: 80px;
+}
+
+.credit {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+}
+
+.greyarea {
+  display: none;
+}
+
+.credit1 {
+  display: none;
+}
+
+.end_credit{
+  display: none;
+}
+/* overlay  */
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #272a31 !important;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(6px);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: left;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.overlay p .slidefont {
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 2;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 22px;
+}
+
+.slidefont {
+  text-decoration: none;
+}
+
+.logo{
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #fff;
+  }
+
+  .first_part {
+    padding-left: 400px;
+    padding-top: 50px;
+    padding-right: 400px;
+    background-image: url("./images/bg.png");
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 35;
+  }
+
+  .hello {
+    font-size: 50px;
+  }
+
+  .contact {
+    border: bisque;
+    margin-left: 100px;
+  }
+
+  .bold {
+    padding-left: 300px;
+  }
+
+  .second_part {
+    padding-left: 500px;
+  }
+
+  .images_class {
+    padding-left: 100px;
+  }
+
+  .logo {
+    display: initial;
+    padding-left: 250px; 
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .info{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  .socials{
+    padding-left: 750px;
+    padding-bottom: 30px;
+  }
+
+  .third_part {
+    padding-bottom: 50px;
+  }
+
+  .past {
+    padding-left: 600px;
+  }
+
+  .adjust {
+    padding-left: 550px;
+  }
+
+  .global {
+    padding-left: 60px;
+    padding-bottom: 50px;
+  }
+
+  .hamburger {
+    display: none;
+    list-style: none;
+    column-gap: 20px;
+  }
+
+  .navigation_option {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    flex-direction: row;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 1150px;
+    column-gap: 50;
+    text-decoration: none;
+    margin-top: -20px;
+  }
+
+  .ending {
+    color: #fff;
+  }
+
+  .greyarea{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    flex-direction: row;
+    background-color: #272a31;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+    padding-left: 1150px;
+    column-gap: 50;
+    color: #fff;
+   
+  }
+
+  a {
+    clear: left;
+    line-height: 20px;
+  }
+
+  .navi {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .credit {
+    display: none;
+  }
+
+  .credit1 {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 300px;
+    font-size: 50px;
+    color: #fff;
+  }
+
+  .images_size {
+    width: 680px;
+    height: 1000px;
+    text-align: center;
+    padding-left: 200px;
+  }
+
+  .ending1 {
+    background-color: rgb(20, 20, 20);
+    color:#fff;
+    padding-bottom: 40px;
+  }
+
+  .ending {
+    color: #fff;
+  }
+
+  .end_credit {
+    background-color: #272a31;
+  }
+
+  .southafricasummit{
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 600px;
+    color: white;
+  }
+
+   p .parapraph {
+    color: #fff;
+  }
+
+  .socials {
+    display: none;
+  }
+}
