@@ -100,9 +100,10 @@ section {
   display: flex;
   align-items: center;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 100px;
   background: #57575e;
   margin: 10px;
+  overflow-wrap: break-word;
 }
 
 .guest_list {
@@ -240,7 +241,7 @@ footer {
   .navigation_option {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    row-gap: 30;
+    row-gap: 30px;
     font-size: 15px;
     margin-top: -20px;
     padding-left: 500px;
@@ -251,7 +252,7 @@ footer {
     padding-left: 270px;
   }
 
-  .campaignbutton{
+  .campaignbutton {
     border-color: #ec5242;
     border: 2px solid #ec5242;
     background-color: white;
@@ -264,7 +265,7 @@ footer {
   }
 
   .main_part {
-    height: 500px;
+    /* height: 500px; */
     padding-right: 400px;
   }
 
@@ -287,26 +288,31 @@ footer {
 
   .main_program {
     padding-left: 640px;
+    height: 40px;
   }
 
   .guest_list {
     display: flex;
     flex-direction: row;
+    column-gap: 10px;
     padding-left: 450px;
+    padding-bottom: 40px;
   }
 
   .program {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: start;
-    width: 190px;
+    width: 500px;
     height: 200px;
+    row-gap: 30px;
     text-align: center;
     font-size: 16px;
     margin: 4px 2px;
     opacity: 0.6;
     transition: 0.3s;
-    padding-right: 400;
+    overflow: break-word;
   }
 
   .program:hover {
@@ -316,7 +322,7 @@ footer {
   .button {
     display: none;
     margin-left: 650px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
   }
 
   .replace {
@@ -334,6 +340,12 @@ footer {
     display: none;
   }
 
+  .explain {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
   #partner {
     padding-top: 30px;
     background-color: #272a31;
@@ -344,7 +356,7 @@ footer {
     display: flex;
     flex-direction: row;
     column-gap: 50px;
-    padding-left: 600px;
+    padding-left: 700px;
     padding-bottom: 50px;
     padding-top: 100px;
   }
@@ -357,7 +369,7 @@ footer {
     font-size: 10px;
     line-height: 20px;
     padding-left: 1150px;
-    row-gap: 10;
+    row-gap: 10px;
     color: #fff;
   }
 
