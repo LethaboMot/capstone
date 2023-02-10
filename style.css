@@ -36,7 +36,7 @@ h1 {
 
 p {
   padding-left: 20px;
-  color: #272a31;
+  /* color: #272a31; */
 }
 
 .hello {
@@ -65,6 +65,8 @@ section {
 
 .credit {
   text-decoration: none;
+  display: flex;
+  flex-direction: row;
 }
 
 .button {
@@ -106,6 +108,10 @@ section {
 
 .guest_list {
   margin-top: 50px;
+}
+
+.greyarea{
+  display: none;
 }
 
 .person {
@@ -221,40 +227,54 @@ footer {
   }
 
   .first_part {
-    padding-left: 500px;
-    padding-bottom: 30px;
-    height: 700px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-bottom: 700px;
+
   }
 
-  nav {
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-
+  
   #home {
     background-image: url("./images/vans.jpg");
+    background: linear-gradient(rgba(148, 144, 144, 0.8), rgba(117, 115, 115, 0.8)), url("./images/vans.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .navigation_option {
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    /* align-self: center;
+    justify-self: center; */
+    /* display: flex;
+    flex-direction: row; */
+    row-gap: 30;
     font-size: 15px;
-    margin-top: -30px;
-    line-height: 20px;
-    margin-left: 1100px;
+    margin-top: -20px;
+    /* line-height: 20px; */
+    padding-left: 500px;
   }
 
   .logo {
     display: initial;
-    padding-left: 250px;
+    padding-left: 270px;
+  }
+
+  .campaignbutton{
+    border-color: #ec5242;
+    border: 2px solid #ec5242;
+    background-color: white;
+    color: #ec5242;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    float: left;
   }
 
   .main_part {
     height: 500px;
+    padding-right: 400px;
   }
 
   .hello {
@@ -266,7 +286,7 @@ footer {
   }
 
   .date {
-    font-size: 100px;
+    font-size: 50px;
   }
 
   .information {
@@ -275,26 +295,27 @@ footer {
   }
 
   .main_program {
-    padding-left: 800px;
+    padding-left: 640px;
   }
 
   .guest_list {
     display: flex;
     flex-direction: row;
-    padding-left: 650px;
+    padding-left: 450px;
   }
 
   .program {
     flex-direction: column;
     align-items: flex-start;
     justify-content: start;
-    width: 140px;
+    width: 190px;
     height: 200px;
     text-align: center;
     font-size: 16px;
     margin: 4px 2px;
     opacity: 0.6;
     transition: 0.3s;
+    padding-right: 400;
   }
 
   .program:hover {
@@ -309,7 +330,7 @@ footer {
 
   .replace {
     display: initial;
-    margin-left: 950px;
+    padding-left: 690px;
     padding-top: 1000px;
     color: #fff;
   }
@@ -331,22 +352,30 @@ footer {
   .socials {
     display: flex;
     flex-direction: row;
-    column-gap: 100px;
+    column-gap: 50px;
     padding-left: 600px;
     padding-bottom: 50px;
     padding-top: 100px;
   }
 
   .greyarea {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
     background-color: #272a31;
-    padding-bottom: 16px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+    padding-left: 1150px;
+    row-gap: 10;
+    color: #fff;
   }
 
   .grid {
     display: grid;
     row-gap: 50px;
     grid-template-columns: auto auto;
-    padding-left: 200px;
+    padding-left: 400px;
+    padding-right: 400px;
   }
 
   .associate {
@@ -360,6 +389,7 @@ footer {
   .navi {
     text-decoration: none;
     color: #272a31;
+    display: flex;
   }
 
   .credit {
