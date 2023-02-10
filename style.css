@@ -4,10 +4,10 @@
   margin: 0;
   padding: 0;
 }
-  
+
 html {
-  font-family: 'Lato', sans-serif;    
-}
+  font-family: 'Lato', sans-serif;
+  }
   
 body {
   background-color: #d2d2d2;
@@ -137,8 +137,7 @@ section {
   margin-left: 125px;
   margin-bottom: 50px;
   font-size: 50px;
-
-}
+  }
 
 .logo{
   display: none;
@@ -165,6 +164,10 @@ footer {
 .socials {
   padding-left: 100px;
   column-gap: 100px;
+}
+
+.slidefont {
+  text-decoration: none;
 }
 
 /* overlay */
@@ -202,10 +205,6 @@ footer {
   margin-top: 0;
   margin-bottom: 0;
   text-indent: 22px;
-}
-
-.slidefont {
-  text-decoration: none;
 }
 
 .replace{
@@ -268,7 +267,7 @@ footer {
     font-size: 100px;
   }
 
-  .date {
+w  .date {
     font-size: 100px;
   }
 
@@ -374,5 +373,3 @@ footer {
     padding-left: 500px;
   }
 }
-
-  
