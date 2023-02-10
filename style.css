@@ -100,7 +100,7 @@ section {
   display: flex;
   align-items: center;
   font-size: 15px;
-  font-weight: 100px;
+  font-weight: 100;
   background: #57575e;
   margin: 10px;
 }
@@ -264,9 +264,7 @@ footer {
   }
 
   .main_part {
-    /* height: 500px; */
     padding-right: 400px;
-    /* width: 100%; */
   }
 
   .hello {
