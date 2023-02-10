@@ -100,10 +100,9 @@ section {
   display: flex;
   align-items: center;
   font-size: 15px;
-  font-weight: 100px;
+  font-weight: 100;
   background: #57575e;
   margin: 10px;
-  overflow-wrap: break-word;
 }
 
 .guest_list {
@@ -312,7 +311,6 @@ footer {
     margin: 4px 2px;
     opacity: 0.6;
     transition: 0.3s;
-    overflow: break-word;
   }
 
   .program:hover {
