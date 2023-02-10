@@ -300,7 +300,7 @@ footer {
   .program:hover {
     opacity: 0.8;
   }
-  
+
   .button {
     display: none;
     margin-left: 650px;
@@ -348,7 +348,7 @@ footer {
     grid-template-columns: auto auto;
     padding-left: 200px;
   }
-  
+
   .associate {
     padding-left: 800px;
   }
