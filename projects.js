@@ -1,6 +1,6 @@
 const projects = [
   {
-    card: 1, 
+    card: 1,
     image: './images/Vince gilligan.png',
     header: 'Vince Gilligan',
     paragraph: 'Director of the hit show Breaking bad',
@@ -24,7 +24,7 @@ const projects = [
     paragraph: 'Director of animated film Cowboy bebop',
   },
 ];
-  
+
 window.onclick = function (event) {
   if (event.target === projects) {
     projects.style.display = 'none';
