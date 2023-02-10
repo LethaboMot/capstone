@@ -374,7 +374,7 @@ footer {
 
   .ending1 {
     background-color: rgb(20, 20, 20);
-    color:#fff;
+    color: #fff;
     padding-bottom: 40px;
   }
 
@@ -391,7 +391,7 @@ footer {
     color: white;
   }
 
-   p .parapraph {
+  p .parapraph {
     color: #fff;
   }
 }
