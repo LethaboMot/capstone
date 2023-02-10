@@ -53,7 +53,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Capstone project] <a name="about-project"></a>
 
->https://www.loom.com/share/452252b2aebb47bea44fc76262310127
+>https://www.loom.com/share/9444246210e04edeb53e098200c6996d
 
 **[Capstone project]** is a...
 
