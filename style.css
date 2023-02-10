@@ -100,7 +100,7 @@ section {
   display: flex;
   align-items: center;
   font-size: 15px;
-  font-weight: 100;
+  font-weight: 100px;
   background: #57575e;
   margin: 10px;
 }
@@ -266,6 +266,7 @@ footer {
   .main_part {
     /* height: 500px; */
     padding-right: 400px;
+    /* width: 100%; */
   }
 
   .hello {
@@ -286,7 +287,7 @@ footer {
   }
 
   .main_program {
-    padding-left: 640px;
+    padding-left: 580px;
     height: 40px;
   }
 
@@ -331,7 +332,7 @@ footer {
   }
 
   .partner {
-    padding-left: 750px;
+    padding-left: 550px;
   }
 
   .hamburger {
@@ -354,7 +355,7 @@ footer {
     display: flex;
     flex-direction: row;
     column-gap: 50px;
-    padding-left: 700px;
+    padding-left: 550px;
     padding-bottom: 50px;
     padding-top: 100px;
   }
@@ -375,12 +376,12 @@ footer {
     display: grid;
     row-gap: 50px;
     grid-template-columns: auto auto;
-    padding-left: 400px;
+    padding-left: 300px;
     padding-right: 400px;
   }
 
   .associate {
-    padding-left: 800px;
+    padding-left:570px;
   }
 
   a:link {
