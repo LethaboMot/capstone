@@ -62,9 +62,9 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [your_project_name] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+>https://www.loom.com/share/452252b2aebb47bea44fc76262310127
 
-**[your_project__name]** is a...
+**[Capstone project]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -99,9 +99,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[mobile menu]**
+- **[working about button]**
+- **[links work]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -218,9 +218,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[guest part made dynamically]**
+- [ ] **[mobile menu work]**
+- [ ] **[icons links work]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
