@@ -25,15 +25,6 @@ OPTIONAL SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -60,7 +51,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Capstone project] <a name="about-project"></a>
 
 >https://www.loom.com/share/452252b2aebb47bea44fc76262310127
 
@@ -75,21 +66,21 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">javascripted</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>HTML</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://expressjs.com/">HTML</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+<summary>SYLING</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.postgresql.org/">CSS</a></li>
   </ul>
 </details>
 
@@ -102,6 +93,7 @@ After you're finished please remove all the comments and instructions!
 - **[mobile menu]**
 - **[working about button]**
 - **[links work]**
+- **[the mobile menu's transparency is my favorite part of the project]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,7 +136,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/LethaboMot/capstone.git
 ```
 --->
 
@@ -222,6 +214,8 @@ Example:
 - [ ] **[mobile menu work]**
 - [ ] **[icons links work]**
 
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -250,7 +244,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank `Cindy Shin` for allow me to use the template for inspiration of the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
