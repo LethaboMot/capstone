@@ -36,7 +36,6 @@ h1 {
 
 p {
   padding-left: 20px;
-  /* color: #272a31; */
 }
 
 .hello {
@@ -110,7 +109,7 @@ section {
   margin-top: 50px;
 }
 
-.greyarea{
+.greyarea {
   display: none;
 }
 
@@ -230,12 +229,9 @@ footer {
     padding-top: 100px;
     padding-left: 200px;
     padding-bottom: 700px;
-
   }
 
-  
   #home {
-    background-image: url("./images/vans.jpg");
     background: linear-gradient(rgba(148, 144, 144, 0.8), rgba(117, 115, 115, 0.8)), url("./images/vans.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -244,14 +240,9 @@ footer {
   .navigation_option {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    /* align-self: center;
-    justify-self: center; */
-    /* display: flex;
-    flex-direction: row; */
     row-gap: 30;
     font-size: 15px;
     margin-top: -20px;
-    /* line-height: 20px; */
     padding-left: 500px;
   }
 
